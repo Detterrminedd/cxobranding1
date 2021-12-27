@@ -37,7 +37,7 @@ $(document).ready(function(){
   });
 
   let observedElements = document.querySelectorAll(
-    ".monkey,.monkey-text,.description"
+    ".monkey,.monkey-text,.description,.sub-text1,.sub-text2,.sub-text3,.tales, .transition"
   );
   
   const options = {threshold: 0.2};
@@ -47,9 +47,9 @@ $(document).ready(function(){
       if (entry.isIntersecting) {
         entry.target.classList.add("opac");
       } 
-      // else {
-      //   entry.target.classList.remove("opac");
-      // }
+      else {
+        entry.target.classList.remove("opac");
+      }
     });
   };
   let observer = new IntersectionObserver(inViewCallback, options);
