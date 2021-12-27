@@ -445,16 +445,23 @@ iframe {
     width: 100vw;
   }
   .page2 {
+    display: grid;
     grid-template-columns: auto;
-    font-family: 'Pacifico', cursive;
+    grid-template-rows: 1fr;
     overflow: hidden;
     gap: 0.2em;
   }
+  .monkey-text {
+    grid-row: 1 / 2;
+  }
+  .monkey-item {
+    grid-row: 2 / 3;
+  }
+  .tales {
+    grid-row: 3 / 4;
+  }
   .monkey {
-    opacity: 0;
     transform: translate3d(6rem, 0, 0);
-    transition: opacity 2s ease-in-out, transform 1s ease-in-out;
-    width: 90%;
   }
   .page3 {
     margin: 0 3%;
