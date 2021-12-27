@@ -175,6 +175,29 @@ body {
   place-items: center;
 }
 
+.testimonials {
+  display: block;
+  margin: auto;
+  width: 90vw;
+  height: 14em;
+}
+
+.testimonials p {
+  font-size: 1.5em;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.testimonials h1 {
+  font-size: 0.9em;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding: 0.5em;
+}
+
 .page4 {
   overflow: hidden;
   margin: 0 5%;
@@ -291,6 +314,7 @@ body {
   display: grid;
   grid-template-rows: auto;
   font-size: 1.6em;
+  gap: 0.2em;
 }
 
 .page8 span {
@@ -572,5 +596,8 @@ iframe {
   .opac {
     opacity: 1;
     transform: none;
+  }
+  .testimonials {
+    height: 20em;
   }
 }

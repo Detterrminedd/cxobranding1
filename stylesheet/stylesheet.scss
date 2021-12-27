@@ -192,7 +192,28 @@ body {
     margin: 0 15%;
     place-items: center;
 }
+.testimonials {
+    display: block;
+    margin: auto;
+    // place-items: center;
+    width: 90vw;
+    height: 14em;
+    p {
+        font-size: 1.5em;
+        font-family: 'Prompt', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        padding: 0.5em;
+    }
+    h1 {
+        font-size: 0.9em;
+        font-family: 'Prompt', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        padding: 0.5em;
+    }
 
+}
 .page4{
     overflow: hidden;
     margin: 0 5%;
@@ -295,6 +316,7 @@ body {
     display: grid;
     grid-template-rows:  auto;
     font-size: 1.6em;
+    gap: 0.2em;
     span {
         font-weight: 200;
     }
@@ -571,5 +593,8 @@ section .section-title {
     .opac{
         opacity: 1;
         transform: none;
+    }
+    .testimonials {
+        height: 20em;
     }
  }
